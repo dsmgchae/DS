@@ -10,7 +10,7 @@ KRX UDP Multicast
        ▼
 ┌─────────────────┐      ┌─────────┐      ┌─────────────┐
 │ SISE_receiver   │ ───► │  Redis  │ ───► │ log_saver   │
-│ (시세 수신)     │      │ (Pub/Sub)│     │ (로그 저장) │
+│ (시세 수신)      │      │ (Pub/Sub)│     │ (로그 저장)  │
 └─────────────────┘      └─────────┘      └─────────────┘
 ```
 
@@ -38,13 +38,7 @@ pip install -r requirements.txt
 
 Redis는 원래 Linux용이라 Windows에서는 별도 설치가 필요합니다.
 
-#### 방법 A: Memurai (추천)
-1. https://www.memurai.com/get-memurai 접속
-2. **Memurai Developer** 다운로드 (무료)
-3. 설치 후 자동으로 서비스로 실행됨
-4. 기본 포트: 6379
-
-#### 방법 B: WSL (Windows Subsystem for Linux)
+#### WSL (Windows Subsystem for Linux)
 ```bash
 # PowerShell 관리자 권한으로 실행
 wsl --install
@@ -140,7 +134,3 @@ start_log_saver.bat
 - 장시간: 08:40 ~ 15:50 (장외시간에는 저장하지 않음)
 
 ---
-
-## 문의
-
-DS투자증권 시장조성팀
