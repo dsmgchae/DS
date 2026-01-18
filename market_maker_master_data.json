@@ -1,0 +1,198 @@
+{
+  "_metadata": {
+    "version": "1.0",
+    "created": "2026-01-14",
+    "description": "시장조성자 마스터 데이터 - 디에스투자증권 MM 모니터링 시스템용",
+    "company": "디에스투자증권"
+  },
+
+  "securities_firms": {
+    "엘에스증권": {"code": "LS", "alias": ["엘에스"]},
+    "삼성증권": {"code": "SS", "alias": ["삼성"]},
+    "메리츠": {"code": "MR", "alias": ["메리츠증권"]},
+    "한국증권": {"code": "HK", "alias": ["한국투자"]},
+    "NH투자증권": {"code": "NH", "alias": ["NH", "농협"]},
+    "신영증권": {"code": "SY", "alias": ["신영"]},
+    "KB증권": {"code": "KB", "alias": ["KB"]},
+    "한화투자": {"code": "HW", "alias": ["한화투자증권"]},
+    "유안타증권": {"code": "YA", "alias": ["유안타"]},
+    "교보증권": {"code": "KB2", "alias": ["교보"]},
+    "다올투자증권": {"code": "DO", "alias": ["다올"]},
+    "신한증권": {"code": "SH", "alias": ["신한투자"]},
+    "대신증권": {"code": "DS2", "alias": ["대신"]},
+    "키움증권": {"code": "KW", "alias": ["키움"]},
+    "SK증권": {"code": "SK", "alias": ["SK"]},
+    "iM증권": {"code": "IM", "alias": ["아이엠"]},
+    "유진증권": {"code": "YJ", "alias": ["유진투자"]},
+    "디에스": {"code": "DS", "alias": ["디에스투자증권", "DS투자증권"], "is_our_company": true},
+    "하나증권": {"code": "HN", "alias": ["하나금융투자"]}
+  },
+
+  "stock_options": {
+    "description": "주식옵션 62개 종목",
+    "products": {
+      "S39": {"product_id": "KRDRVOPS39", "name": "HD한국조선해양", "mm1": "다올투자증권", "mm2": "SK증권"},
+      "SGH": {"product_id": "KRDRVOPSGH", "name": "HD현대일렉트릭", "mm1": "iM증권", "mm2": "유진증권"},
+      "SFD": {"product_id": "KRDRVOPSFD", "name": "HD현대중공업", "mm1": "한국증권", "mm2": "iM증권"},
+      "SFA": {"product_id": "KRDRVOPSFA", "name": "HMM", "mm1": "하나증권", "mm2": "신한증권"},
+      "S46": {"product_id": "KRDRVOPS46", "name": "KB금융", "mm1": "교보증권", "mm2": "대신증권"},
+      "S14": {"product_id": "KRDRVOPS14", "name": "KT", "mm1": "키움증권", "mm2": "디에스"},
+      "S45": {"product_id": "KRDRVOPS45", "name": "LG디스플레이", "mm1": "교보증권", "mm2": "디에스"},
+      "SCR": {"product_id": "KRDRVOPSCR", "name": "LG생활건강", "mm1": "메리츠", "mm2": "신영증권"},
+      "SF5": {"product_id": "KRDRVOPSF5", "name": "LG에너지솔루션", "mm1": "유안타증권", "mm2": "한화투자"},
+      "SB0": {"product_id": "KRDRVOPSB0", "name": "LG유플러스", "mm1": "NH투자증권", "mm2": "유안타증권"},
+      "SBY": {"product_id": "KRDRVOPSBY", "name": "LG이노텍", "mm1": "신한증권", "mm2": "대신증권"},
+      "S24": {"product_id": "KRDRVOPS24", "name": "LG전자", "mm1": "키움증권", "mm2": "디에스"},
+      "S47": {"product_id": "KRDRVOPS47", "name": "LG화학", "mm1": "메리츠", "mm2": "유진증권"},
+      "SGL": {"product_id": "KRDRVOPSGL", "name": "LS ELECTRIC", "mm1": "iM증권", "mm2": "다올투자증권"},
+      "S56": {"product_id": "KRDRVOPS56", "name": "NAVER", "mm1": "KB증권", "mm2": "엘에스증권"},
+      "S13": {"product_id": "KRDRVOPS13", "name": "POSCO 홀딩스", "mm1": "SK증권", "mm2": "유진증권"},
+      "SF9": {"product_id": "KRDRVOPSF9", "name": "SK바이오사이언스", "mm1": "한화투자", "mm2": "교보증권"},
+      "S41": {"product_id": "KRDRVOPS41", "name": "SK이노베이션", "mm1": "SK증권", "mm2": "대신증권"},
+      "S12": {"product_id": "KRDRVOPS12", "name": "SK텔레콤", "mm1": "하나증권", "mm2": "KB증권"},
+      "S50": {"product_id": "KRDRVOPS50", "name": "SK하이닉스", "mm1": "삼성증권", "mm2": "메리츠"},
+      "S19": {"product_id": "KRDRVOPS19", "name": "기아", "mm1": "신한증권", "mm2": "KB증권"},
+      "SE5": {"product_id": "KRDRVOPSE5", "name": "넷마블", "mm1": "한국증권", "mm2": "신영증권"},
+      "SB9": {"product_id": "KRDRVOPSB9", "name": "두산에너빌리티", "mm1": "신영증권", "mm2": "삼성증권"},
+      "SFK": {"product_id": "KRDRVOPSFK", "name": "메리츠금융지주", "mm1": "NH투자증권", "mm2": "신한증권"},
+      "S48": {"product_id": "KRDRVOPS48", "name": "미래에셋증권", "mm1": "대신증권", "mm2": "iM증권"},
+      "S22": {"product_id": "KRDRVOPS22", "name": "삼성SDI", "mm1": "엘에스증권", "mm2": "KB증권"},
+      "SC5": {"product_id": "KRDRVOPSC5", "name": "삼성SDS", "mm1": "신한증권", "mm2": "SK증권"},
+      "SC8": {"product_id": "KRDRVOPSC8", "name": "삼성물산", "mm1": "키움증권", "mm2": "유안타증권"},
+      "SES": {"product_id": "KRDRVOPSES", "name": "삼성바이오로직스", "mm1": "키움증권", "mm2": "iM증권"},
+      "SBD": {"product_id": "KRDRVOPSBD", "name": "삼성생명", "mm1": "NH투자증권", "mm2": "KB증권"},
+      "S23": {"product_id": "KRDRVOPS23", "name": "삼성전기", "mm1": "한화투자", "mm2": "iM증권"},
+      "S11": {"product_id": "KRDRVOPS11", "name": "삼성전자", "mm1": "엘에스증권", "mm2": "한국증권"},
+      "SBF": {"product_id": "KRDRVOPSBF", "name": "삼성중공업", "mm1": "한국증권", "mm2": "신영증권"},
+      "SCT": {"product_id": "KRDRVOPSCT", "name": "삼성화재", "mm1": "디에스", "mm2": "하나증권"},
+      "SCP": {"product_id": "KRDRVOPSCP", "name": "셀트리온", "mm1": "대신증권", "mm2": "iM증권"},
+      "S18": {"product_id": "KRDRVOPS18", "name": "신한지주", "mm1": "대신증권", "mm2": "SK증권"},
+      "SC6": {"product_id": "KRDRVOPSC6", "name": "아모레퍼시픽", "mm1": "교보증권", "mm2": "한국증권"},
+      "SFP": {"product_id": "KRDRVOPSFP", "name": "알테오젠", "mm1": "NH투자증권", "mm2": "교보증권"},
+      "SEY": {"product_id": "KRDRVOPSEY", "name": "에코프로비엠", "mm1": "교보증권", "mm2": "신한증권"},
+      "SBJ": {"product_id": "KRDRVOPSBJ", "name": "엔씨소프트", "mm1": "엘에스증권", "mm2": "삼성증권"},
+      "SFM": {"product_id": "KRDRVOPSFM", "name": "엘앤에프", "mm1": "삼성증권", "mm2": "신한증권"},
+      "SCF": {"product_id": "KRDRVOPSCF", "name": "카카오", "mm1": "한화투자", "mm2": "다올투자증권"},
+      "SF6": {"product_id": "KRDRVOPSF6", "name": "카카오뱅크", "mm1": "SK증권", "mm2": "디에스"},
+      "SF7": {"product_id": "KRDRVOPSF7", "name": "카카오페이", "mm1": "한화투자", "mm2": "유안타증권"},
+      "S36": {"product_id": "KRDRVOPS36", "name": "케이티앤지", "mm1": "하나증권", "mm2": "메리츠"},
+      "SF8": {"product_id": "KRDRVOPSF8", "name": "크래프톤", "mm1": "KB증권", "mm2": "유진증권"},
+      "SCN": {"product_id": "KRDRVOPSCN", "name": "포스코DX", "mm1": "하나증권", "mm2": "한화투자"},
+      "SB7": {"product_id": "KRDRVOPSB7", "name": "포스코인터내셔널", "mm1": "유안타증권", "mm2": "교보증권"},
+      "SE8": {"product_id": "KRDRVOPSE8", "name": "포스코퓨처엠", "mm1": "한국증권", "mm2": "다올투자증권"},
+      "S40": {"product_id": "KRDRVOPS40", "name": "하나금융지주", "mm1": "유안타증권", "mm2": "신영증권"},
+      "SFC": {"product_id": "KRDRVOPSFC", "name": "하이브", "mm1": "SK증권", "mm2": "대신증권"},
+      "S15": {"product_id": "KRDRVOPS15", "name": "한국전력", "mm1": "신영증권", "mm2": "교보증권"},
+      "SBM": {"product_id": "KRDRVOPSBM", "name": "한국항공우주", "mm1": "한화투자", "mm2": "엘에스증권"},
+      "SCB": {"product_id": "KRDRVOPSCB", "name": "한화솔루션", "mm1": "SK증권", "mm2": "iM증권"},
+      "SEV": {"product_id": "KRDRVOPSEV", "name": "한화시스템", "mm1": "다올투자증권", "mm2": "유진증권"},
+      "SBH": {"product_id": "KRDRVOPSBH", "name": "한화에어로스페이스", "mm1": "iM증권", "mm2": "다올투자증권"},
+      "SFV": {"product_id": "KRDRVOPSFV", "name": "한화오션", "mm1": "KB증권", "mm2": "메리츠"},
+      "SBN": {"product_id": "KRDRVOPSBN", "name": "현대건설", "mm1": "유진증권", "mm2": "삼성증권"},
+      "SG6": {"product_id": "KRDRVOPSG6", "name": "현대로템", "mm1": "NH투자증권", "mm2": "엘에스증권"},
+      "S20": {"product_id": "KRDRVOPS20", "name": "현대모비스", "mm1": "삼성증권", "mm2": "메리츠"},
+      "S32": {"product_id": "KRDRVOPS32", "name": "현대제철", "mm1": "키움증권", "mm2": "디에스"},
+      "S16": {"product_id": "KRDRVOPS16", "name": "현대차", "mm1": "한화투자", "mm2": "메리츠"}
+    }
+  },
+
+  "ds_assigned_products": {
+    "description": "디에스투자증권 배정 종목 리스트",
+    "stock_futures": [
+      {"product_id": "KRDRVFUKQI", "name": "코스닥150선물"},
+      {"product_id": "KRDRVFUQGI", "name": "코스닥글로벌선물"},
+      {"product_id": "KRDRVFUS0P", "name": "영원무역홀딩스"},
+      {"product_id": "KRDRVFUS14", "name": "KT"},
+      {"product_id": "KRDRVFUS1H", "name": "심텍"},
+      {"product_id": "KRDRVFUS24", "name": "LG전자"},
+      {"product_id": "KRDRVFUS32", "name": "현대제철"},
+      {"product_id": "KRDRVFUS45", "name": "LG디스플레이"},
+      {"product_id": "KRDRVFUS54", "name": "이마트"},
+      {"product_id": "KRDRVFUS55", "name": "한국타이어앤테크놀로지"},
+      {"product_id": "KRDRVFUSBB", "name": "롯데케미칼"},
+      {"product_id": "KRDRVFUSCT", "name": "삼성화재"},
+      {"product_id": "KRDRVFUSCX", "name": "한미약품"},
+      {"product_id": "KRDRVFUSCY", "name": "한온시스템"},
+      {"product_id": "KRDRVFUSD2", "name": "한샘"},
+      {"product_id": "KRDRVFUSD6", "name": "유한양행"},
+      {"product_id": "KRDRVFUSDG", "name": "영원무역"},
+      {"product_id": "KRDRVFUSDK", "name": "코스맥스"},
+      {"product_id": "KRDRVFUSDT", "name": "CJ ENM"},
+      {"product_id": "KRDRVFUSE3", "name": "파트론"},
+      {"product_id": "KRDRVFUSEZ", "name": "스튜디오드래곤"},
+      {"product_id": "KRDRVFUSF6", "name": "카카오뱅크"},
+      {"product_id": "KRDRVFUSFS", "name": "LS"},
+      {"product_id": "KRDRVFUSG3", "name": "한전기술"},
+      {"product_id": "KRDRVFUSG9", "name": "리가켐바이오"},
+      {"product_id": "KRDRVFUSGA", "name": "에스티팜"},
+      {"product_id": "KRDRVFUSGD", "name": "클래시스"},
+      {"product_id": "KRDRVFUSGF", "name": "피엔티"},
+      {"product_id": "KRDRVFUSGM", "name": "SK케미칼"},
+      {"product_id": "KRDRVFUSGV", "name": "롯데정밀화학"}
+    ],
+    "sector_futures": [
+      {"product_id": "KRDRVFUXA6", "name": "건설"},
+      {"product_id": "KRDRVFUXAE", "name": "바이오 TOP 10"},
+      {"product_id": "KRDRVFUXAH", "name": "밸류업지수"},
+      {"product_id": "KRDRVFUXAL", "name": "KRX 반도체"}
+    ],
+    "options": [
+      {"product_id": "KRDRVOPMKI", "name": "미니코스피200옵션"},
+      {"product_id": "KRDRVOPS14", "name": "KT옵션"},
+      {"product_id": "KRDRVOPS24", "name": "LG전자옵션"},
+      {"product_id": "KRDRVOPS32", "name": "현대제철옵션"},
+      {"product_id": "KRDRVOPS45", "name": "LG디스플레이옵션"},
+      {"product_id": "KRDRVOPSCT", "name": "삼성화재옵션"},
+      {"product_id": "KRDRVOPSF6", "name": "카카오뱅크옵션"},
+      {"product_id": "KRDRVOPWQM", "name": "코스닥150 위클리(월)옵션"}
+    ]
+  },
+
+  "sector_index_futures": {
+    "description": "섹터지수선물 16개",
+    "products": {
+      "KRDRVFUXA0": {"name": "에너지화학", "mm1": "엘에스증권", "mm2": "한국증권", "mm3": "신영증권"},
+      "KRDRVFUXA1": {"name": "정보기술", "mm1": "키움증권", "mm2": "iM증권", "mm3": "하나증권"},
+      "KRDRVFUXA2": {"name": "금융지수", "mm1": "한화투자", "mm2": "유안타증권", "mm3": "SK증권"},
+      "KRDRVFUXA3": {"name": "경기소비재", "mm1": "다올투자증권", "mm2": "신한증권", "mm3": "대신증권"},
+      "KRDRVFUXA4": {"name": "고배당50", "mm1": "한국증권", "mm2": "한화투자", "mm3": "교보증권"},
+      "KRDRVFUXA6": {"name": "건설", "mm1": "디에스", "mm2": "교보증권", "mm3": "SK증권"},
+      "KRDRVFUXA7": {"name": "중공업", "mm1": "iM증권", "mm2": "키움증권", "mm3": "SK증권"},
+      "KRDRVFUXA8": {"name": "헬스케어", "mm1": "NH투자증권", "mm2": "신영증권", "mm3": "유안타증권"},
+      "KRDRVFUXA9": {"name": "철강소재", "mm1": "KB증권", "mm2": "iM증권", "mm3": "유진증권"},
+      "KRDRVFUXAA": {"name": "생활소비재", "mm1": "엘에스증권", "mm2": "삼성증권", "mm3": "메리츠"},
+      "KRDRVFUXAB": {"name": "산업재", "mm1": "다올투자증권", "mm2": "신한증권", "mm3": "대신증권"},
+      "KRDRVFUXAC": {"name": "BBIG", "mm1": "신한증권", "mm2": "대신증권", "mm3": "유진증권"},
+      "KRDRVFUXAD": {"name": "2차전지 TOP 10", "mm1": "NH투자증권", "mm2": "교보증권", "mm3": "다올투자증권"},
+      "KRDRVFUXAE": {"name": "바이오 TOP 10", "mm1": "키움증권", "mm2": "디에스", "mm3": "하나증권"},
+      "KRDRVFUXAL": {"name": "KRX 반도체", "mm1": "하나증권", "mm2": "유진증권", "mm3": "디에스"},
+      "KRDRVFUVKI": {"name": "변동성지수", "mm1": "삼성증권", "mm2": "메리츠", "mm3": "KB증권"}
+    }
+  },
+
+  "kosdaq150_options_allocation": {
+    "description": "코스닥150옵션 결제월/결제주 배정",
+    "monthly": ["엘에스증권", "삼성증권", "한국증권", "NH투자증권", "신영증권", "KB증권", "한화투자"],
+    "weekly_thu": ["메리츠", "유안타증권", "교보증권", "다올투자증권", "신한증권", "대신증권"],
+    "weekly_mon": ["키움증권", "SK증권", "iM증권", "유진증권", "디에스", "하나증권"]
+  },
+
+  "krx300_kosdaq_global_valueup": {
+    "description": "KRX300선물/코스닥글로벌선물/밸류업지수선물 배정",
+    "round1": {
+      "KRX300선물": ["엘에스증권", "삼성증권", "메리츠", "한국증권", "NH투자증권", "신영증권", "KB증권", "한화투자", "유안타증권", "교보증권", "다올투자증권", "신한증권"],
+      "밸류업지수선물": ["대신증권", "SK증권", "iM증권", "유진증권", "디에스"],
+      "코스닥글로벌선물": ["키움증권", "하나증권"]
+    },
+    "round2": {
+      "밸류업지수선물": ["엘에스증권", "NH투자증권", "신영증권", "KB증권", "한화투자", "키움증권", "하나증권"],
+      "코스닥글로벌선물": ["한국증권", "유안타증권", "교보증권", "다올투자증권", "신한증권", "대신증권", "SK증권", "iM증권", "유진증권", "디에스"],
+      "웨이버권": ["삼성증권", "메리츠"]
+    }
+  },
+
+  "kosdaq150_kospi200_mini_members": {
+    "kosdaq150_futures": ["엘에스증권", "삼성증권", "메리츠", "한국증권", "NH투자증권", "신영증권", "KB증권", "한화투자", "유안타증권", "교보증권", "다올투자증권", "신한증권", "대신증권", "키움증권", "SK증권", "iM증권", "유진증권", "디에스", "하나증권"],
+    "mini_kospi200_options": ["엘에스증권", "삼성증권", "메리츠", "한국증권", "NH투자증권", "신영증권", "KB증권", "한화투자", "유안타증권", "교보증권", "다올투자증권", "신한증권", "대신증권", "키움증권", "SK증권", "iM증권", "유진증권", "디에스", "하나증권"]
+  }
+}

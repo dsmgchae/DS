@@ -1,0 +1,153 @@
+{
+  "_metadata": {
+    "version": "1.0",
+    "created": "2026-01-14",
+    "description": "2026년 시장조성 의무기준 데이터",
+    "source": "거래소 통보자료"
+  },
+
+  "duty_rates": {
+    "description": "의무이행률 기준 (2026년)",
+    "intraday": {
+      "미니코스피200옵션": 0.75,
+      "코스닥150옵션": 0.75,
+      "코스닥150위클리옵션_월": 0.75,
+      "코스닥150위클리옵션_목": 0.75,
+      "변동성지수선물": 0.75,
+      "코스닥150선물": 0.85,
+      "KRX300선물": 0.85,
+      "코스닥글로벌선물": 0.85,
+      "밸류업지수선물": 0.85,
+      "섹터지수선물": 0.85,
+      "주식선물": 0.85,
+      "ETF선물": 0.85,
+      "주식옵션": 0.85
+    },
+    "period": {
+      "미니코스피200옵션": 0.70,
+      "코스닥150옵션": 0.70,
+      "주식옵션": 0.70,
+      "코스닥150선물": 0.80,
+      "KRX300선물": 0.80,
+      "코스닥글로벌선물": 0.80,
+      "밸류업지수선물": 0.80,
+      "섹터지수선물": 0.80,
+      "변동성지수선물": 0.80,
+      "주식선물": 0.80,
+      "ETF선물": 0.80
+    }
+  },
+
+  "index_options": {
+    "미니코스피200옵션": {
+      "product_id": "KRDRVOPMKI",
+      "duty_qty": {
+        "OTM7": 10, "OTM6": 10, "OTM5": 10, "OTM4": 10, "OTM3": 10, "OTM2": 10, "OTM1": 10, "ATM": 5, "ITM1": 5
+      },
+      "duty_spread": {"ratio_pct": 8, "min_tick": 10, "max_tick": 26}
+    },
+    "코스닥150옵션_결제월": {
+      "product_id": "KRDRVOPWQM",
+      "duty_qty": {"OTM3": 5, "OTM2": 5, "OTM1": 5, "ATM": 5, "ITM1": 5},
+      "duty_spread": {"ratio_pct": 15, "min_tick": 15, "max_tick": 50}
+    },
+    "코스닥150위클리옵션_월": {
+      "product_id": "KRDRVOPWQM",
+      "duty_qty": {"OTM3": 5, "OTM2": 5, "OTM1": 5, "ATM": 5, "ITM1": 5},
+      "duty_spread": {"ratio_pct": 25, "min_tick": 15, "max_tick": 50}
+    },
+    "코스닥150위클리옵션_목": {
+      "product_id": "KRDRVOPWQT",
+      "duty_qty": {"OTM3": 5, "OTM2": 5, "OTM1": 5, "ATM": 5, "ITM1": 5},
+      "duty_spread": {"ratio_pct": 25, "min_tick": 15, "max_tick": 50}
+    }
+  },
+
+  "stock_options_duty": {
+    "description": "주식옵션 62개 상품 의무기준",
+    "KRDRVOPS11": {"name": "삼성전자", "duty_qty": {"OTM4": 7, "OTM3": 5, "OTM2": 6, "OTM1": 5, "ATM": 5, "ITM1": 4}, "spread": {"ratio_pct": 10, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPS12": {"name": "SK텔레콤", "duty_qty": {"OTM4": 137, "OTM3": 67, "OTM2": 46, "OTM1": 20, "ATM": 12, "ITM1": 7}, "spread": {"ratio_pct": 6, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPS13": {"name": "POSCO 홀딩스", "duty_qty": {"OTM4": 3, "OTM3": 3, "OTM2": 3, "OTM1": 3, "ATM": 3, "ITM1": 3}, "spread": {"ratio_pct": 10, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPS14": {"name": "KT", "duty_qty": {"OTM4": 54, "OTM3": 33, "OTM2": 30, "OTM1": 16, "ATM": 13, "ITM1": 9}, "spread": {"ratio_pct": 6, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPS15": {"name": "한국전력", "duty_qty": {"OTM4": 13, "OTM3": 10, "OTM2": 14, "OTM1": 12, "ATM": 12, "ITM1": 10}, "spread": {"ratio_pct": 10, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPS16": {"name": "현대차", "duty_qty": {"OTM4": 8, "OTM3": 4, "OTM2": 4, "OTM1": 3, "ATM": 3, "ITM1": 3}, "spread": {"ratio_pct": 8, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPS18": {"name": "신한지주", "duty_qty": {"OTM4": 25, "OTM3": 15, "OTM2": 14, "OTM1": 9, "ATM": 9, "ITM1": 7}, "spread": {"ratio_pct": 6, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPS19": {"name": "기아", "duty_qty": {"OTM4": 15, "OTM3": 10, "OTM2": 11, "OTM1": 7, "ATM": 6, "ITM1": 4}, "spread": {"ratio_pct": 6, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPS20": {"name": "현대모비스", "duty_qty": {"OTM4": 6, "OTM3": 4, "OTM2": 3, "OTM1": 3, "ATM": 3, "ITM1": 3}, "spread": {"ratio_pct": 8, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPS22": {"name": "삼성SDI", "duty_qty": {"OTM4": 3, "OTM3": 3, "OTM2": 3, "OTM1": 3, "ATM": 3, "ITM1": 3}, "spread": {"ratio_pct": 14, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPS23": {"name": "삼성전기", "duty_qty": {"OTM4": 4, "OTM3": 3, "OTM2": 3, "OTM1": 3, "ATM": 3, "ITM1": 3}, "spread": {"ratio_pct": 12, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPS24": {"name": "LG전자", "duty_qty": {"OTM4": 11, "OTM3": 7, "OTM2": 9, "OTM1": 6, "ATM": 6, "ITM1": 5}, "spread": {"ratio_pct": 8, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPS32": {"name": "현대제철", "duty_qty": {"OTM4": 33, "OTM3": 22, "OTM2": 16, "OTM1": 12, "ATM": 9, "ITM1": 7}, "spread": {"ratio_pct": 8, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPS36": {"name": "케이티앤지", "duty_qty": {"OTM4": 11, "OTM3": 7, "OTM2": 6, "OTM1": 5, "ATM": 3, "ITM1": 3}, "spread": {"ratio_pct": 6, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPS39": {"name": "HD한국조선해양", "duty_qty": {"OTM4": 3, "OTM3": 3, "OTM2": 3, "OTM1": 3, "ATM": 3, "ITM1": 3}, "spread": {"ratio_pct": 12, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPS40": {"name": "하나금융지주", "duty_qty": {"OTM4": 14, "OTM3": 9, "OTM2": 9, "OTM1": 7, "ATM": 6, "ITM1": 5}, "spread": {"ratio_pct": 8, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPS41": {"name": "SK이노베이션", "duty_qty": {"OTM4": 6, "OTM3": 3, "OTM2": 3, "OTM1": 3, "ATM": 3, "ITM1": 3}, "spread": {"ratio_pct": 10, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPS45": {"name": "LG디스플레이", "duty_qty": {"OTM4": 57, "OTM3": 40, "OTM2": 49, "OTM1": 37, "ATM": 27, "ITM1": 20}, "spread": {"ratio_pct": 10, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPS46": {"name": "KB금융", "duty_qty": {"OTM4": 10, "OTM3": 7, "OTM2": 9, "OTM1": 6, "ATM": 5, "ITM1": 4}, "spread": {"ratio_pct": 6, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPS47": {"name": "LG화학", "duty_qty": {"OTM4": 3, "OTM3": 3, "OTM2": 3, "OTM1": 3, "ATM": 3, "ITM1": 3}, "spread": {"ratio_pct": 14, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPS48": {"name": "미래에셋증권", "duty_qty": {"OTM4": 37, "OTM3": 26, "OTM2": 32, "OTM1": 23, "ATM": 20, "ITM1": 16}, "spread": {"ratio_pct": 10, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPS50": {"name": "SK하이닉스", "duty_qty": {"OTM4": 3, "OTM3": 3, "OTM2": 3, "OTM1": 3, "ATM": 3, "ITM1": 3}, "spread": {"ratio_pct": 14, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPS56": {"name": "NAVER", "duty_qty": {"OTM4": 3, "OTM3": 3, "OTM2": 3, "OTM1": 3, "ATM": 3, "ITM1": 3}, "spread": {"ratio_pct": 14, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPSB0": {"name": "LG유플러스", "duty_qty": {"OTM4": 214, "OTM3": 103, "OTM2": 55, "OTM1": 32, "ATM": 21, "ITM1": 16}, "spread": {"ratio_pct": 6, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPSB7": {"name": "포스코인터내셔널", "duty_qty": {"OTM4": 14, "OTM3": 10, "OTM2": 13, "OTM1": 10, "ATM": 7, "ITM1": 3}, "spread": {"ratio_pct": 10, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPSB9": {"name": "두산에너빌리티", "duty_qty": {"OTM4": 5, "OTM3": 4, "OTM2": 6, "OTM1": 5, "ATM": 5, "ITM1": 4}, "spread": {"ratio_pct": 12, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPSBD": {"name": "삼성생명", "duty_qty": {"OTM4": 11, "OTM3": 6, "OTM2": 6, "OTM1": 4, "ATM": 4, "ITM1": 3}, "spread": {"ratio_pct": 6, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPSBF": {"name": "삼성중공업", "duty_qty": {"OTM4": 30, "OTM3": 21, "OTM2": 27, "OTM1": 21, "ATM": 20, "ITM1": 17}, "spread": {"ratio_pct": 10, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPSBH": {"name": "한화에어로스페이스", "duty_qty": {"OTM4": 3, "OTM3": 3, "OTM2": 3, "OTM1": 3, "ATM": 3, "ITM1": 3}, "spread": {"ratio_pct": 14, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPSBJ": {"name": "엔씨소프트", "duty_qty": {"OTM4": 5, "OTM3": 3, "OTM2": 3, "OTM1": 3, "ATM": 3, "ITM1": 3}, "spread": {"ratio_pct": 12, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPSBM": {"name": "한국항공우주", "duty_qty": {"OTM4": 7, "OTM3": 5, "OTM2": 6, "OTM1": 4, "ATM": 4, "ITM1": 3}, "spread": {"ratio_pct": 12, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPSBN": {"name": "현대건설", "duty_qty": {"OTM4": 11, "OTM3": 8, "OTM2": 9, "OTM1": 7, "ATM": 6, "ITM1": 5}, "spread": {"ratio_pct": 12, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPSBY": {"name": "LG이노텍", "duty_qty": {"OTM4": 4, "OTM3": 3, "OTM2": 3, "OTM1": 3, "ATM": 3, "ITM1": 3}, "spread": {"ratio_pct": 12, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPSC5": {"name": "삼성SDS", "duty_qty": {"OTM4": 11, "OTM3": 6, "OTM2": 5, "OTM1": 3, "ATM": 3, "ITM1": 3}, "spread": {"ratio_pct": 6, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPSC6": {"name": "아모레퍼시픽", "duty_qty": {"OTM4": 7, "OTM3": 6, "OTM2": 6, "OTM1": 3, "ATM": 3, "ITM1": 3}, "spread": {"ratio_pct": 6, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPSC8": {"name": "삼성물산", "duty_qty": {"OTM4": 6, "OTM3": 4, "OTM2": 3, "OTM1": 3, "ATM": 3, "ITM1": 3}, "spread": {"ratio_pct": 12, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPSCB": {"name": "한화솔루션", "duty_qty": {"OTM4": 27, "OTM3": 20, "OTM2": 25, "OTM1": 19, "ATM": 19, "ITM1": 13}, "spread": {"ratio_pct": 8, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPSCF": {"name": "카카오", "duty_qty": {"OTM4": 12, "OTM3": 6, "OTM2": 6, "OTM1": 6, "ATM": 6, "ITM1": 6}, "spread": {"ratio_pct": 10, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPSCN": {"name": "포스코DX", "duty_qty": {"OTM4": 35, "OTM3": 25, "OTM2": 23, "OTM1": 18, "ATM": 11, "ITM1": 7}, "spread": {"ratio_pct": 10, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPSCP": {"name": "셀트리온", "duty_qty": {"OTM4": 6, "OTM3": 4, "OTM2": 4, "OTM1": 3, "ATM": 3, "ITM1": 3}, "spread": {"ratio_pct": 8, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPSCR": {"name": "LG생활건강", "duty_qty": {"OTM4": 3, "OTM3": 3, "OTM2": 3, "OTM1": 3, "ATM": 3, "ITM1": 3}, "spread": {"ratio_pct": 8, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPSCT": {"name": "삼성화재", "duty_qty": {"OTM4": 3, "OTM3": 3, "OTM2": 3, "OTM1": 3, "ATM": 3, "ITM1": 3}, "spread": {"ratio_pct": 10, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPSE5": {"name": "넷마블", "duty_qty": {"OTM4": 11, "OTM3": 9, "OTM2": 6, "OTM1": 5, "ATM": 3, "ITM1": 3}, "spread": {"ratio_pct": 10, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPSE8": {"name": "포스코퓨처엠", "duty_qty": {"OTM4": 3, "OTM3": 3, "OTM2": 3, "OTM1": 3, "ATM": 3, "ITM1": 3}, "spread": {"ratio_pct": 12, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPSES": {"name": "삼성바이오로직스", "duty_qty": {"OTM4": 3, "OTM3": 3, "OTM2": 3, "OTM1": 3, "ATM": 3, "ITM1": 3}, "spread": {"ratio_pct": 12, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPSEV": {"name": "한화시스템", "duty_qty": {"OTM4": 18, "OTM3": 12, "OTM2": 14, "OTM1": 10, "ATM": 7, "ITM1": 6}, "spread": {"ratio_pct": 10, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPSEY": {"name": "에코프로비엠", "duty_qty": {"OTM4": 3, "OTM3": 3, "OTM2": 3, "OTM1": 3, "ATM": 3, "ITM1": 3}, "spread": {"ratio_pct": 12, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPSF5": {"name": "LG에너지솔루션", "duty_qty": {"OTM4": 3, "OTM3": 3, "OTM2": 3, "OTM1": 3, "ATM": 3, "ITM1": 3}, "spread": {"ratio_pct": 12, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPSF6": {"name": "카카오뱅크", "duty_qty": {"OTM4": 94, "OTM3": 57, "OTM2": 41, "OTM1": 29, "ATM": 23, "ITM1": 20}, "spread": {"ratio_pct": 6, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPSF7": {"name": "카카오페이", "duty_qty": {"OTM4": 16, "OTM3": 12, "OTM2": 15, "OTM1": 11, "ATM": 7, "ITM1": 7}, "spread": {"ratio_pct": 10, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPSF8": {"name": "크래프톤", "duty_qty": {"OTM4": 3, "OTM3": 3, "OTM2": 3, "OTM1": 3, "ATM": 3, "ITM1": 3}, "spread": {"ratio_pct": 10, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPSF9": {"name": "SK바이오사이언스", "duty_qty": {"OTM4": 13, "OTM3": 9, "OTM2": 6, "OTM1": 5, "ATM": 4, "ITM1": 3}, "spread": {"ratio_pct": 8, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPSFA": {"name": "HMM", "duty_qty": {"OTM4": 57, "OTM3": 41, "OTM2": 31, "OTM1": 23, "ATM": 18, "ITM1": 15}, "spread": {"ratio_pct": 8, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPSFC": {"name": "하이브", "duty_qty": {"OTM4": 4, "OTM3": 3, "OTM2": 3, "OTM1": 3, "ATM": 3, "ITM1": 3}, "spread": {"ratio_pct": 12, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPSFD": {"name": "HD현대중공업", "duty_qty": {"OTM4": 3, "OTM3": 3, "OTM2": 3, "OTM1": 3, "ATM": 3, "ITM1": 3}, "spread": {"ratio_pct": 12, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPSFK": {"name": "메리츠금융지주", "duty_qty": {"OTM4": 13, "OTM3": 9, "OTM2": 9, "OTM1": 4, "ATM": 3, "ITM1": 3}, "spread": {"ratio_pct": 6, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPSFM": {"name": "엘앤에프", "duty_qty": {"OTM4": 4, "OTM3": 3, "OTM2": 3, "OTM1": 3, "ATM": 3, "ITM1": 3}, "spread": {"ratio_pct": 12, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPSFP": {"name": "알테오젠", "duty_qty": {"OTM4": 3, "OTM3": 3, "OTM2": 3, "OTM1": 3, "ATM": 3, "ITM1": 3}, "spread": {"ratio_pct": 14, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPSFV": {"name": "한화오션", "duty_qty": {"OTM4": 7, "OTM3": 4, "OTM2": 5, "OTM1": 4, "ATM": 3, "ITM1": 3}, "spread": {"ratio_pct": 12, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPSG6": {"name": "현대로템", "duty_qty": {"OTM4": 5, "OTM3": 3, "OTM2": 3, "OTM1": 3, "ATM": 3, "ITM1": 3}, "spread": {"ratio_pct": 14, "min_tick": 3, "max_tick": 15}},
+    "KRDRVOPSGH": {"name": "HD현대일렉트릭", "duty_qty": {"OTM4": 3, "OTM3": 3, "OTM2": 3, "OTM1": 3, "ATM": 3, "ITM1": 3}, "spread": {"ratio_pct": 14, "min_tick": 3, "max_tick": 15}}
+  },
+
+  "index_futures_duty": {
+    "description": "주가지수선물 19개 상품 의무기준",
+    "KRDRVFUKQI": {"name": "코스닥150선물", "duty_qty": 3, "spread": {"ratio_pct": 0.24, "min_tick": 35, "max_tick": 70}},
+    "KRDRVFUQGI": {"name": "코스닥글로벌선물", "duty_qty": 3, "spread": {"ratio_pct": 0.21, "min_tick": 39, "max_tick": 78}},
+    "KRDRVFUXI3": {"name": "KRX300선물", "duty_qty": 1, "spread": {"ratio_pct": 0.21, "min_tick": 25, "max_tick": 50}},
+    "KRDRVFUXA8": {"name": "헬스케어", "duty_qty": 2, "spread": {"ratio_pct": 0.19, "min_tick": 20, "max_tick": 40}},
+    "KRDRVFUXA6": {"name": "건설", "duty_qty": 11, "spread": {"ratio_pct": 0.28, "min_tick": 6, "max_tick": 12}},
+    "KRDRVFUXA2": {"name": "금융지수", "duty_qty": 4, "spread": {"ratio_pct": 0.20, "min_tick": 12, "max_tick": 24}},
+    "KRDRVFUXAB": {"name": "산업재", "duty_qty": 5, "spread": {"ratio_pct": 0.22, "min_tick": 11, "max_tick": 22}},
+    "KRDRVFUXA0": {"name": "에너지화학", "duty_qty": 4, "spread": {"ratio_pct": 0.24, "min_tick": 16, "max_tick": 32}},
+    "KRDRVFUXA3": {"name": "경기소비재", "duty_qty": 3, "spread": {"ratio_pct": 0.23, "min_tick": 21, "max_tick": 42}},
+    "KRDRVFUXA1": {"name": "정보기술", "duty_qty": 1, "spread": {"ratio_pct": 0.23, "min_tick": 53, "max_tick": 106}},
+    "KRDRVFUXA7": {"name": "중공업", "duty_qty": 4, "spread": {"ratio_pct": 0.23, "min_tick": 15, "max_tick": 30}},
+    "KRDRVFUXA9": {"name": "철강소재", "duty_qty": 4, "spread": {"ratio_pct": 0.22, "min_tick": 13, "max_tick": 26}},
+    "KRDRVFUXAA": {"name": "생활소비재", "duty_qty": 4, "spread": {"ratio_pct": 0.20, "min_tick": 12, "max_tick": 24}},
+    "KRDRVFUXA4": {"name": "고배당50", "duty_qty": 2, "spread": {"ratio_pct": 0.24, "min_tick": 18, "max_tick": 36}},
+    "KRDRVFUXAH": {"name": "코리아밸류업지수", "duty_qty": 3, "spread": {"ratio_pct": 0.21, "min_tick": 16, "max_tick": 32}},
+    "KRDRVFUXAL": {"name": "KRX 반도체", "duty_qty": 1, "spread": {"ratio_pct": 0.22, "min_tick": 62, "max_tick": 124}},
+    "KRDRVFUXAC": {"name": "BBIG", "duty_qty": 8, "spread": {"ratio_pct": 0.23, "min_tick": 9, "max_tick": 18}},
+    "KRDRVFUXAD": {"name": "2차전지 TOP 10", "duty_qty": 5, "spread": {"ratio_pct": 0.22, "min_tick": 14, "max_tick": 28}},
+    "KRDRVFUXAE": {"name": "바이오 TOP 10", "duty_qty": 6, "spread": {"ratio_pct": 0.18, "min_tick": 9, "max_tick": 18}}
+  }
+}

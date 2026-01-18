@@ -1,0 +1,23 @@
+# Old files (archived)
+old/
+MM_backup/
+
+# Claude Code local settings
+.claude/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# Batch files (local execution)
+*.bat
+
+# Logs (generated data)
+*.log
+
+# Windows reserved device name
+nul
