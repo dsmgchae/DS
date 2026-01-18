@@ -14,7 +14,7 @@ __pycache__/
 .idea/
 
 # Batch files (local execution)
-*.bat
+# *.bat
 
 # Logs (generated data)
 *.log
