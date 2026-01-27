@@ -1,6 +1,8 @@
 # Old files (archived)
 old/
 MM_backup/
+analysis_workspace/
+data_for_analysis/
 
 # Claude Code local settings
 .claude/
